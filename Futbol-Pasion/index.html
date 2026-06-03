@@ -12,55 +12,53 @@
 <body>
 
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container">
+        <div class="container">
 
-        <a class="navbar-brand" href="#">
-           Futbol-Pasion
-        </a>
+            <a class="navbar-brand" href="#">
+                Futbol-Pasion
+            </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
 
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
 
-        </button>
+            </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+            <div class="collapse navbar-collapse" id="menu">
 
-            <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
 
-            </ul>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <header>
+
+
+
+        <div class="brand">
+
+            <h1>Futbol-Pasion</h1>
+            <img class="logo" src="assets/img/futbol.jpg.jpg" alt="Logo de Futbol-Pasion" alt="Logo de Futbol-Pasion">
+
+
 
         </div>
 
-    </div>
-</nav>
-    <header>
-
-    
-            
-            <div class="brand">
-
-                <h1>Futbol-Pasion</h1>
-                <img class="logo"
-                src="assets/img/futbol.jpg.jpg" alt="Logo de Futbol-Pasion"
-                alt="Logo de Futbol-Pasion">
-                
-            
-               
-            </div>
-           
 
     </header>
 
@@ -74,58 +72,63 @@
                 puedan encontrar información actualizada, opiniones y entretenimiento sobre sus equipos y jugadores
                 favoritos.</p>
 
-        <section id="equipos">
+            <section id="equipos">
 
-    <h2>Equipos Destacados</h2>
+                <h2>Equipos Destacados</h2>
 
-    <div class="grid-equipos">
+                <div class="grid-equipos">
 
-        <div class="equipo">
-            <img src="assets/img/colo-colo.jpg" alt="Equipo 1">
-            <h3>Colo-Colo</h3>
-            <p>Colo-Colo el equipo más grande de Chile.</p>
-        </div>
+                    <div class="equipo">
+                        <img src="assets/img/colo-colo.jpg" alt="Equipo 1">
+                        <h3>Colo-Colo</h3>
+                        <p>Colo-Colo el equipo más grande de Chile.</p>
+                    </div>
 
-        <div class="equipo">
-            <img src="assets/img/alianza-lima.png" alt="Equipo 2">
-            <h3>Alianza Lima</h3>
-            <p>Alianza Lima es un equipo de fútbol peruano.</p>
-        </div>
+                    <div class="equipo">
+                        <img src="assets/img/alianza-lima.png" alt="Equipo 2">
+                        <h3>Alianza Lima</h3>
+                        <p>Alianza Lima es un equipo de fútbol peruano.</p>
+                    </div>
 
-    </div>
+                </div>
 
-</section>
+            </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti!</p>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>¿Tienes alguna pregunta o comentario? ¡Nos encantaría saber de ti!</p>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
 
-                <button type="submit">Enviar</button>
-            </form>
+                    <button type="submit">Enviar</button>
+                </form>
 
-        </section>
+            </section>
 
-        <section class="productos">
+            <section class="productos">
 
-    <div class="producto">Camisetas</div>
+                <div class="producto">Camisetas</div>
 
-    <div class="producto">Zapatillas</div>
+                <div class="producto">Zapatillas</div>
 
-    <div class="producto">Accesorios</div>
+                <div class="producto">Accesorios</div>
 
-</section>
+            </section>
     </main>
 
+    <button id="btnArriba">
+        ↑ Ir arriba
+    </button>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
